@@ -1,3 +1,5 @@
-<button (click)="show = !show">{{ show ? 'hide' : 'show' }}</button> show = {{ show }}
-<br />
-<div *ngIf="show">Text to show</div>
+<div>
+    <input tyepe="button" value="{{caption}}" (click)="changeData()" />
+    <br>
+    <h2 *ngIf="showInfo"><span>Demonstration of Structural Directives-*ngIf</span></h2>
+</div>
